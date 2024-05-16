@@ -14,7 +14,7 @@ lg">Back</a>
 <div class="card-body">
 <form action="{{route("todo.store")}}" method="post">
 @csrf
-<label for="" class="form-label mt-4">Task Name</label><!--
+<label for="" class="form-label mt-3">Task Name</label><!--
 mt-4 = margin 4 -->
 <input type="text" name="name" class = "form-control" id="">
 <div class="text-danger">
